@@ -37,7 +37,7 @@
 	%>
 	<jsp:include page="Student.html"></jsp:include>
 	<div class="centered">
-		<p style="color: green;">Record inserted successfully !!</p>
+		<p style="color: green;">Record Inserted successfully !!</p>
 	</div>
 	<%
 	} catch (Exception e) {
