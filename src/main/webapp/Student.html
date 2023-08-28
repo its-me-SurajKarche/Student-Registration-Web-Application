@@ -12,10 +12,18 @@
 		}
 
 		h1 {
-			text-shadow: whitesmoke;
 			text-align: center;
-			padding: 20px;
-			color: #333;
+			margin-top: 20px;
+		}
+
+		#mi {
+			display: inline-block;
+			color: red;
+			text-shadow: 0px 2px 5px 10px whitesmoke;
+			box-shadow: 0px 3px 10px rgb(64, 0, 0);
+			background-color: pink;
+			padding: 10px;
+			border-radius: 3%;
 		}
 
 		form {
@@ -24,13 +32,15 @@
 			background: #fff;
 			padding: 20px;
 			border-radius: 5px;
-			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			box-shadow: inset 0 0 20px rgb(0, 0, 64);
+
 		}
 
 		label {
 			display: block;
 			font-weight: bold;
 			margin-bottom: 5px;
+		
 		}
 
 		input[type="text"],
@@ -42,6 +52,7 @@
 			margin-bottom: 10px;
 			border: 1px solid #ccc;
 			border-radius: 3px;
+			box-shadow: inset 0 0 10px rgba(128, 0, 255, 0.5);
 		}
 
 		input[type="submit"] {
@@ -51,10 +62,11 @@
 			border: none;
 			border-radius: 3px;
 			cursor: pointer;
+			
 		}
 
 		input[type="submit"]:hover {
-			background-color: #555;
+			background-color:green;	
 		}
 
 		p {
@@ -65,12 +77,13 @@
 
 <body>
 
-	<h1>Student Registration</h1>
+	<h1><span id="mi"><span style="text-shadow: 0px 2px 5px rgb(255, 255, 128);">STUDENT REGISTERATION</span> </span>
+	</h1>
 
-	<div align="center">
+	<div align="center" id="mainDiv">
 		<form action="StudentDetails.jsp" method="post">
 			<fieldset>
-				<legend>Sutdent Registeration</legend>
+				<legend>Student Registeration</legend>
 				<label for="id">Id:</label>
 				<input type="number" id="id" name="id" min="0">
 
