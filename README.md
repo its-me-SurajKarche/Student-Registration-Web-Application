@@ -1,4 +1,5 @@
 # Student Registration Web Application
+<img src="https://github.com/its-me-SurajKarche/Student-Registration-Web-Application/blob/main/StudentRegistrationPhase1.png"/>
  <h2>Description:</h2>
 This project is a comprehensive student registration web application developed using a combination of frontend and backend technologies. The application aims to provide a user-friendly interface for registering student information, which is then stored in a MySQL database. The project showcases the integration of HTML, CSS, JavaServer Pages (JSP), and MySQL to create a seamless user experience.
 
